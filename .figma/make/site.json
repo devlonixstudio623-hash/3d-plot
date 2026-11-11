@@ -1,0 +1,10 @@
+{
+  "description": "Showcase plotted developments with interactive 3D layouts, helping real estate developers give buyers an engaging way to explore plots and request information.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
