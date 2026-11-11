@@ -1,2 +1,7 @@
-# AgentPlat packages this default favicon directly from source without LFS hydration.
+# Package public assets directly from source without LFS hydration (required for Vercel/static hosts).
 favicon.png -filter -diff -merge -text
+*.webp -filter -diff -merge -text
+*.png -filter -diff -merge -text
+*.jpg -filter -diff -merge -text
+*.jpeg -filter -diff -merge -text
+*.ico -filter -diff -merge -text
